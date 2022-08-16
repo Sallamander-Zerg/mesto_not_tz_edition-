@@ -1,0 +1,17 @@
+.element__LikeButton {
+  
+  grid-column: 2;
+  grid-row: 2;
+  background-color: #fff;
+  background-image: url(../../../photo/like.svg);
+  border: none;
+  box-shadow: none;
+  width: 22px;
+  height: 19px;
+}
+.element__LikeButton:hover{
+    opacity: 0.5;
+}
+.element__LikeButton.like{
+    background-image: url(../../../photo/like_active.svg); 
+}
